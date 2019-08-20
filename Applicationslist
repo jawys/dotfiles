@@ -1,0 +1,96 @@
+/Applications/:
+Android Studio.app
+App Store.app
+Automator.app
+Avaya Equinox.app
+Books.app
+Calculator.app
+Calendar.app
+Chess.app
+Contacts.app
+Dashboard.app
+Dictionary.app
+Discord.app
+Docker.app
+Eclipse Java.app
+FaceTime.app
+Firefox Developer Edition.app
+Font Book.app
+GitKraken.app
+Google Chrome Canary.app
+Google Chrome.app
+Haroopad.app
+Home.app
+Image Capture.app
+Intelligent Hub.app
+KeepingYouAwake.app
+Keynote.app
+Launchpad.app
+LuLu.app
+Mail.app
+Maps.app
+Messages.app
+Microsoft Excel.app
+Microsoft OneNote.app
+Microsoft Outlook.app
+Microsoft PowerPoint.app
+Microsoft Remote Desktop.app
+Microsoft Teams.app
+Microsoft Word.app
+Mission Control.app
+News.app
+Notes.app
+Numbers.app
+OneDrive.app
+Pages.app
+Penc.app
+Photo Booth.app
+Photos.app
+Pomello.app
+Postman.app
+PowerShell.app
+Preview.app
+Pulse Secure.app
+QuickTime Player.app
+Reminders.app
+Safari.app
+Siri.app
+Skype for Business.app
+Slack.app
+Spotify.app
+Stickies.app
+Stocks.app
+Symantec Solutions
+System Preferences.app
+TextEdit.app
+Time Machine.app
+Trello.app
+Utilities
+VLC.app
+VMware Fusion.app
+VMware Horizon Client.app
+VMware Remote Console.app
+Visual Studio Code.app
+VoiceMemos.app
+Xcode.app
+iTunes.app
+nextcloud.app
+
+/Applications/Utilities/:
+Activity Monitor.app
+AirPort Utility.app
+Audio MIDI Setup.app
+Bluetooth File Exchange.app
+Boot Camp Assistant.app
+ColorSync Utility.app
+Console.app
+Digital Color Meter.app
+Disk Utility.app
+Grapher.app
+Keychain Access.app
+Migration Assistant.app
+Screenshot.app
+Script Editor.app
+System Information.app
+Terminal.app
+VoiceOver Utility.app
