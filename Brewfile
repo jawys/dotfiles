@@ -16,6 +16,7 @@ brew "ideviceinstaller"
 brew "ios-deploy"
 brew "ios-webkit-debug-proxy"
 brew "jq"
+brew "mas"
 brew "sl"
 brew "watchman"
 brew "yarn"
@@ -41,3 +42,9 @@ cask "spotify"
 cask "visual-studio-code"
 cask "vlc"
 cask "vmware-remote-console"
+mas "Keynote", id: 409183694
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Trello", id: 1278508951
+mas "Xcode", id: 497799835
