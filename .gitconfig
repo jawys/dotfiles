@@ -1,0 +1,28 @@
+[user]
+	useConfigOnly = true
+	name = Jan Wystub
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[alias]
+	b = branch -vv
+	bb = branch -vva
+	co = checkout
+	sw = switch
+	s = status -sb
+	unstage = reset -- HEAD
+	l = log -1
+	h = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	g = log --graph
+	gg = log --graph --all
+[init]
+	templatedir = ~/repos/.templatedir/
+	defaultBranch = main
+[rerere]
+	enabled = true
+[rebase]
+	autostash = true
+[pull]
+	rebase = true
