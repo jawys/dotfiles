@@ -2,16 +2,76 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ANSIBlueColor</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGmCwwXHR4lVSRudWxs1Q0ODxAR
+	EhMUFRZcTlNDb21wb25lbnRzVU5TUkdCXE5TQ29sb3JTcGFjZV8QEk5TQ3VzdG9tQ29s
+	b3JTcGFjZVYkY2xhc3NPECgwLjQzOTIxNTY4OTkgMC43NDkwMTk2MjI4IDAuNzkyMTU2
+	ODE1NSAxTxAnMC4yNjY0NTg2MzA2IDAuNzEyMjQ0MDMzOCAwLjc1NTI1NDYyNjMAEAGA
+	AoAF0xgRGRobHFVOU0lDQ1lOU1NwYWNlSUSAA4AEEAxPEQIkAAACJGFwcGwEAAAAbW50
+	clJHQiBYWVogB+EABwAHAA0AFgAgYWNzcEFQUEwAAAAAQVBQTAAAAAAAAAAAAAAAAAAA
+	AAAAAPbWAAEAAAAA0y1hcHBsyhqVgiV/EE04mRPV0eoVggAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAKZGVzYwAAAPwAAABlY3BydAAAAWQAAAAjd3RwdAAAAYgAAAAU
+	clhZWgAAAZwAAAAUZ1hZWgAAAbAAAAAUYlhZWgAAAcQAAAAUclRSQwAAAdgAAAAgY2hh
+	ZAAAAfgAAAAsYlRSQwAAAdgAAAAgZ1RSQwAAAdgAAAAgZGVzYwAAAAAAAAALRGlzcGxh
+	eSBQMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0ZXh0AAAAAENvcHlyaWdo
+	dCBBcHBsZSBJbmMuLCAyMDE3AABYWVogAAAAAAAA81EAAQAAAAEWzFhZWiAAAAAAAACD
+	3wAAPb////+7WFlaIAAAAAAAAEq/AACxNwAACrlYWVogAAAAAAAAKDgAABELAADIuXBh
+	cmEAAAAAAAMAAAACZmYAAPKnAAANWQAAE9AAAApbc2YzMgAAAAAAAQxCAAAF3v//8yYA
+	AAeTAAD9kP//+6L///2jAAAD3AAAwG7SHyAhIlokY2xhc3NuYW1lWCRjbGFzc2VzXE5T
+	Q29sb3JTcGFjZaIjJFxOU0NvbG9yU3BhY2VYTlNPYmplY3TSHyAmJ1dOU0NvbG9yoiYk
+	AAgAEQAaACQAKQAyADcASQBMAFEAUwBaAGAAawB4AH4AiwCgAKcA0gD8AP4BAAECAQkB
+	DwEZARsBHQEfA0cDTANXA2ADbQNwA30DhgOLA5MAAAAAAAACAQAAAAAAAAAoAAAAAAAA
+	AAAAAAAAAAADlg==
+	</data>
+	<key>ANSIBrightBlueColor</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzRjAgMCAxABACgALSFBUWF1okY2xhc3NuYW1l
+	WCRjbGFzc2VzV05TQ29sb3KiFhhYTlNPYmplY3QIERokKTI3SUxRU1ddZGp3foWHiY6Z
+	oqqtAAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAAAAAAAAAAALY=
+	</data>
 	<key>BackgroundBlur</key>
 	<real>0.0</real>
 	<key>BackgroundColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
-	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxAREldO
-	U1doaXRlXE5TQ29sb3JTcGFjZVYkY2xhc3NNMCAwLjg1MDAwMDAyABADgALSFBUWF1ok
-	Y2xhc3NuYW1lWCRjbGFzc2VzV05TQ29sb3KiFhhYTlNPYmplY3QIERokKTI3SUxRU1dd
-	ZGx5gI6Qkpeiq7O2AAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAL8=
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGmCwwXHR4lVSRudWxs1Q0ODxAR
+	EhMUFRZcTlNDb21wb25lbnRzVU5TUkdCXE5TQ29sb3JTcGFjZV8QEk5TQ3VzdG9tQ29s
+	b3JTcGFjZVYkY2xhc3NPECgwLjE0MTE3NjQ3NzEgMCAwLjIwMDAwMDAxNzkgMC43OTY3
+	MjEzODM0TxApMC4xMTY4MjQ0NDgxIDAgMC4xNTc1NDczMzk4IDAuNzk2NzIxMzgzNAAQ
+	AYACgAXTGBEZGhscVU5TSUNDWU5TU3BhY2VJRIADgAQQDE8RAiQAAAIkYXBwbAQAAABt
+	bnRyUkdCIFhZWiAH4QAHAAcADQAWACBhY3NwQVBQTAAAAABBUFBMAAAAAAAAAAAAAAAA
+	AAAAAAAA9tYAAQAAAADTLWFwcGzKGpWCJX8QTTiZE9XR6hWCAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAApkZXNjAAAA/AAAAGVjcHJ0AAABZAAAACN3dHB0AAABiAAA
+	ABRyWFlaAAABnAAAABRnWFlaAAABsAAAABRiWFlaAAABxAAAABRyVFJDAAAB2AAAACBj
+	aGFkAAAB+AAAACxiVFJDAAAB2AAAACBnVFJDAAAB2AAAACBkZXNjAAAAAAAAAAtEaXNw
+	bGF5IFAzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJp
+	Z2h0IEFwcGxlIEluYy4sIDIwMTcAAFhZWiAAAAAAAADzUQABAAAAARbMWFlaIAAAAAAA
+	AIPfAAA9v////7tYWVogAAAAAAAASr8AALE3AAAKuVhZWiAAAAAAAAAoOAAAEQsAAMi5
+	cGFyYQAAAAAAAwAAAAJmZgAA8qcAAA1ZAAAT0AAACltzZjMyAAAAAAABDEIAAAXe///z
+	JgAAB5MAAP2Q///7ov///aMAAAPcAADAbtIfICEiWiRjbGFzc25hbWVYJGNsYXNzZXNc
+	TlNDb2xvclNwYWNloiMkXE5TQ29sb3JTcGFjZVhOU09iamVjdNIfICYnV05TQ29sb3Ki
+	JiQACAARABoAJAApADIANwBJAEwAUQBTAFoAYABrAHgAfgCLAKAApwDSAP4BAAECAQQB
+	CwERARsBHQEfASEDSQNOA1kDYgNvA3IDfwOIA40DlQAAAAAAAAIBAAAAAAAAACgAAAAA
+	AAAAAAAAAAAAAAOY
 	</data>
+	<key>Bell</key>
+	<true/>
+	<key>BellBounceCritical</key>
+	<true/>
+	<key>BlinkText</key>
+	<true/>
+	<key>BookmarkRestorations</key>
+	<true/>
+	<key>ConvertNewlinesOnPaste</key>
+	<false/>
+	<key>CursorBlink</key>
+	<true/>
 	<key>CursorColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -20,21 +80,31 @@
 	YXNzbmFtZVgkY2xhc3Nlc1dOU0NvbG9yohYYWE5TT2JqZWN0CBEaJCkyN0lMUVNXXWRs
 	eYCMjpCVoKmxtAAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAC9
 	</data>
+	<key>DisableANSIColor</key>
+	<false/>
+	<key>EastAsianAmbiguousWide</key>
+	<false/>
+	<key>EscapeNonASCIICharacters</key>
+	<true/>
 	<key>Font</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
 	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGkCwwVFlUkbnVsbNQNDg8QERIT
-	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNAKAAAAAAAABAQgAKAA18QIEZp
-	cmFNb25vTmVyZEZvbnRDb21wbGV0ZS1SZWd1bGFy0hcYGRpaJGNsYXNzbmFtZVgkY2xh
+	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNALAAAAAAAABAQgAKAA18QIEZp
+	cmFDb2RlTmVyZEZvbnRDb21wbGV0ZU0tUmV0aW5h0hcYGRpaJGNsYXNzbmFtZVgkY2xh
 	c3Nlc1ZOU0ZvbnSiGRtYTlNPYmplY3QIERokKTI3SUxRU1heZ253foWOkJKUt7zH0Nfa
 	AAAAAAAAAQEAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAOM=
 	</data>
 	<key>FontAntialias</key>
-	<false/>
+	<true/>
+	<key>FontHeightSpacing</key>
+	<integer>1</integer>
 	<key>FontWidthSpacing</key>
-	<real>0.99596774193548387</real>
+	<integer>1</integer>
 	<key>ProfileCurrentVersion</key>
 	<real>2.0699999999999998</real>
+	<key>ScrollAlternateScreen</key>
+	<true/>
 	<key>SelectionColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -44,8 +114,38 @@
 	ohYYWE5TT2JqZWN0CBEaJCkyN0lMUVNXXWRqd36nqauwu8TMzwAAAAAAAAEBAAAAAAAA
 	ABkAAAAAAAAAAAAAAAAAAADY
 	</data>
+	<key>SetLanguageEnvironmentVariables</key>
+	<false/>
+	<key>ShowActiveProcessArgumentsInTitle</key>
+	<true/>
+	<key>ShowActiveProcessInTabTitle</key>
+	<false/>
+	<key>ShowActiveProcessInTitle</key>
+	<false/>
+	<key>ShowActivityIndicatorInTab</key>
+	<true/>
+	<key>ShowCommandKeyInTitle</key>
+	<false/>
+	<key>ShowComponentsWhenTabHasCustomTitle</key>
+	<true/>
+	<key>ShowDimensionsInTitle</key>
+	<false/>
+	<key>ShowRepresentedURLInTabTitle</key>
+	<false/>
+	<key>ShowRepresentedURLInTitle</key>
+	<true/>
+	<key>ShowRepresentedURLPathInTitle</key>
+	<false/>
+	<key>ShowShellCommandInTitle</key>
+	<false/>
+	<key>ShowTTYNameInTitle</key>
+	<false/>
+	<key>ShowTerminalInDockIcon</key>
+	<true/>
 	<key>ShowWindowSettingsNameInTitle</key>
 	<false/>
+	<key>TerminalType</key>
+	<string>xterm</string>
 	<key>TextBoldColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -62,15 +162,29 @@
 	YXNzbmFtZVgkY2xhc3Nlc1dOU0NvbG9yohYYWE5TT2JqZWN0CBEaJCkyN0lMUVNXXWRs
 	eYCMjpCVoKmxtAAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAC9
 	</data>
+	<key>UseBoldFonts</key>
+	<true/>
+	<key>UseBrightBold</key>
+	<true/>
+	<key>VisualBellOnlyWhenMuted</key>
+	<true/>
+	<key>WindowTitle</key>
+	<string>Terminal</string>
 	<key>columnCount</key>
 	<integer>100</integer>
+	<key>deleteSendsBackspace</key>
+	<true/>
 	<key>name</key>
 	<string>Jans Pro</string>
 	<key>rowCount</key>
 	<integer>30</integer>
+	<key>scrollOnInput</key>
+	<true/>
 	<key>shellExitAction</key>
 	<integer>2</integer>
 	<key>type</key>
 	<string>Window Settings</string>
+	<key>useOptionAsMetaKey</key>
+	<true/>
 </dict>
 </plist>
