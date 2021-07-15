@@ -175,7 +175,7 @@
 	<key>deleteSendsBackspace</key>
 	<true/>
 	<key>name</key>
-	<string>Jans Pro</string>
+	<string>Jans</string>
 	<key>rowCount</key>
 	<integer>30</integer>
 	<key>scrollOnInput</key>
