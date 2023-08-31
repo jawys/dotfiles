@@ -1,6 +1,7 @@
 [user]
 	useConfigOnly = true
 	name = Jan Wystub
+	signingkey = ~/.ssh/id_ed25519
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
@@ -8,21 +9,68 @@
 	clean = git-lfs clean -- %f
 [alias]
 	b = branch -vv
-	bb = branch -vva
+	bb = b --all
 	co = checkout
 	sw = switch
 	s = status -sb
-	unstage = reset -- HEAD
-	l = log -1
+	unstage = reset @ --
+	l = "!sh -c 'if [[ $1 =~ ^[0-9]+$ ]]; then N=$1; shift; fi; git log -${N-1} $*' -"
+	diffs = diff --staged
+	f = fetch -pv
+	fixup = !sh -c 'git commit --fixup "$([ ${#@} -eq 0 -o "$1"x = --x ] && echo @)" $@' -
 	h = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-	g = log --graph
-	gg = log --graph --all
+	g = log --graph --oneline --left-right
+	gg = g --all
+	ll = log --graph
+	stat = status
+	ss = show
+	undo-commit = reset --soft @^ --
+	undo-commit-unstaged = reset --mixed @^ --
+	cleani = clean -ixd
+	tag-today = !git tag $(date +%Y-%m-%d-$USER)
+	delete-all-tags = !git tag | xargs git tag --delete
+	prune-branches = !sh -c \"LANG=en git branch -vv | grep gone | tee /dev/tty | awk '{print \\$1}' | xargs git branch --delete $*\"
+	ci = !cz commit
+	push-MR = push -o merge_request.create
+	create-MR = push -o merge_request.create
+	merge-when-pipeline-succeeds = "!sh -vc \"git push -o merge_request.merge_when_pipeline_succeeds -o merge_request.create -o merge_request.target=\"$(if [[ \"$1\" != \"-*\" ]]; then echo main; shift; fi)\" $*\" -"
+	push-with-ci-debug-trace = push --push-option=ci.variable=CI_DEBUG_TRACE=1
+	push-with-ci-variables = "!sh -c 'git push $(for var in $*; do echo \"--push-option=ci.variable=$var\"; done)' -"
+	re = rebase -i
+	co-from-last-message = git co -b (git log -1 --pretty=%B | slugify)
+	bflm = git co -b (git log -1 --pretty=%B | slugify)
+	open = browse
 [init]
-	templatedir = ~/repos/.templatedir/
+	templatedir = ~/.git_template_dir
 	defaultBranch = main
 [rerere]
 	enabled = true
 [rebase]
 	autostash = true
+	autosquash = true
 [pull]
-	rebase = true
+	rebase = merges
+[core]
+	excludesFile = ~/.gitignore
+	editor = code --wait
+[color]
+	ui = 1
+[remote "origin"]
+	; fetch = +refs/environments/*:refs/remotes/origin/envs/*
+	fetch = +refs/merge-requests/*/head:refs/remotes/origin/MR/*
+	fetch = +refs/notes/*:refs/notes/*
+[push]
+	autoSetupRemote = true
+[github]
+	user = jawys
+[diff]
+	tool = git-meld
+[fetch]
+	prune = true
+[commit]
+	gpgsign = true
+	verbose = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = ~/.ssh/allowed_signers
