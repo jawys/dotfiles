@@ -1,0 +1,33 @@
+#!/bin/bash
+#
+# A git hook to set the corresponding user.email before committing
+#
+# (c) 2020 Jan Wystub <janwystub@gmail.com>
+
+function print_error {
+	echo "*** Failed at $0"
+	exit 1
+}
+function print_success {
+	echo -e "\n*** Set user.email locally to '$EMAIL'\n"
+	exit 0
+}
+function set_email_locally {
+	EMAIL=$1
+	git config --local user.email $EMAIL && print_success || print_error
+}
+# walk up the file tree
+while [ ! -f "$PWD/.gitconfig" -a "$PWD" != "/" ]; do
+	PWD=$(dirname $PWD)
+done
+# get email from gitconfig
+EMAIL=$(git config --file "$PWD/.gitconfig" user.email)
+# if [ -z $EMAIL ]; then
+#     # use global email if EMAIL still empty
+#     EMAIL=$(git config --global user.email)
+# fi
+if [ "$EMAIL" != "$(git config --local user.email)" ]; then
+	set_email_locally "$EMAIL"
+fi
+# user.email is either set locally or globally
+echo "*** Committing as '$EMAIL' ***"
